@@ -7,13 +7,55 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		3FF8D2D620723031005575B3 /* TPreventKVC.h in Headers */ = {isa = PBXBuildFile; fileRef = 3FF8D2D420723031005575B3 /* TPreventKVC.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3FF8D2DE20723079005575B3 /* NSObject+PreventKVC.h in Headers */ = {isa = PBXBuildFile; fileRef = 3FF8D2DC20723079005575B3 /* NSObject+PreventKVC.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3FF8D2DF20723079005575B3 /* NSObject+PreventKVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FF8D2DD20723079005575B3 /* NSObject+PreventKVC.m */; };
+		3FF8D3082072364E005575B3 /* TPreventKVC.h in Headers */ = {isa = PBXBuildFile; fileRef = 3FF8D3072072364E005575B3 /* TPreventKVC.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3FF8D309207236E3005575B3 /* NSObject+PreventKVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FF8D2DD20723079005575B3 /* NSObject+PreventKVC.m */; };
+		3FF8D30A207236EA005575B3 /* TPreventKVC.h in Headers */ = {isa = PBXBuildFile; fileRef = 3FF8D3072072364E005575B3 /* TPreventKVC.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3FF8D30B207236EA005575B3 /* NSObject+PreventKVC.h in Headers */ = {isa = PBXBuildFile; fileRef = 3FF8D2DC20723079005575B3 /* NSObject+PreventKVC.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3FF8D30C20723701005575B3 /* TPreventKVC.h in Headers */ = {isa = PBXBuildFile; fileRef = 3FF8D3072072364E005575B3 /* TPreventKVC.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3FF8D30D20723701005575B3 /* NSObject+PreventKVC.h in Headers */ = {isa = PBXBuildFile; fileRef = 3FF8D2DC20723079005575B3 /* NSObject+PreventKVC.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3FF8D30E20723704005575B3 /* NSObject+PreventKVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FF8D2DD20723079005575B3 /* NSObject+PreventKVC.m */; };
+		3FF8D30F20723709005575B3 /* NSObject+PreventKVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FF8D2DD20723079005575B3 /* NSObject+PreventKVC.m */; };
+		3FF8D3102072370B005575B3 /* TPreventKVC.h in Headers */ = {isa = PBXBuildFile; fileRef = 3FF8D3072072364E005575B3 /* TPreventKVC.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3FF8D3112072370B005575B3 /* NSObject+PreventKVC.h in Headers */ = {isa = PBXBuildFile; fileRef = 3FF8D2DC20723079005575B3 /* NSObject+PreventKVC.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3FF8D31920723E07005575B3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FF8D31820723E07005575B3 /* main.m */; };
+		3FF8D3202072408E005575B3 /* TPreventKVC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3FF8D2FF207235D2005575B3 /* TPreventKVC.framework */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3FF8D31D20723E36005575B3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3FF8D2C820723031005575B3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3FF8D2FE207235D2005575B3;
+			remoteInfo = "TPreventKVC macOS";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		3FF8D31420723E07005575B3 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		3FF8D2D120723031005575B3 /* TPreventKVC.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TPreventKVC.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		3FF8D2D420723031005575B3 /* TPreventKVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TPreventKVC.h; sourceTree = "<group>"; };
 		3FF8D2D520723031005575B3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3FF8D2DC20723079005575B3 /* NSObject+PreventKVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSObject+PreventKVC.h"; sourceTree = "<group>"; };
+		3FF8D2DD20723079005575B3 /* NSObject+PreventKVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSObject+PreventKVC.m"; sourceTree = "<group>"; };
+		3FF8D2E52072359A005575B3 /* TPreventKVC.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TPreventKVC.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3FF8D2F2207235C6005575B3 /* TPreventKVC.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TPreventKVC.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3FF8D2FF207235D2005575B3 /* TPreventKVC.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TPreventKVC.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3FF8D3072072364E005575B3 /* TPreventKVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TPreventKVC.h; sourceTree = "<group>"; };
+		3FF8D31620723E07005575B3 /* TPreventKVC Example */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "TPreventKVC Example"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3FF8D31820723E07005575B3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -24,14 +66,46 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		3FF8D2E12072359A005575B3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3FF8D2EE207235C6005575B3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3FF8D2FB207235D2005575B3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3FF8D31320723E07005575B3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FF8D3202072408E005575B3 /* TPreventKVC.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
 		3FF8D2C720723031005575B3 = {
 			isa = PBXGroup;
 			children = (
+				3FF8D2D520723031005575B3 /* Info.plist */,
 				3FF8D2D320723031005575B3 /* TPreventKVC */,
+				3FF8D31720723E07005575B3 /* TPreventKVC Example */,
 				3FF8D2D220723031005575B3 /* Products */,
+				3FF8D31F2072408E005575B3 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -39,6 +113,10 @@
 			isa = PBXGroup;
 			children = (
 				3FF8D2D120723031005575B3 /* TPreventKVC.framework */,
+				3FF8D2E52072359A005575B3 /* TPreventKVC.framework */,
+				3FF8D2F2207235C6005575B3 /* TPreventKVC.framework */,
+				3FF8D2FF207235D2005575B3 /* TPreventKVC.framework */,
+				3FF8D31620723E07005575B3 /* TPreventKVC Example */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -46,10 +124,26 @@
 		3FF8D2D320723031005575B3 /* TPreventKVC */ = {
 			isa = PBXGroup;
 			children = (
-				3FF8D2D420723031005575B3 /* TPreventKVC.h */,
-				3FF8D2D520723031005575B3 /* Info.plist */,
+				3FF8D3072072364E005575B3 /* TPreventKVC.h */,
+				3FF8D2DC20723079005575B3 /* NSObject+PreventKVC.h */,
+				3FF8D2DD20723079005575B3 /* NSObject+PreventKVC.m */,
 			);
 			path = TPreventKVC;
+			sourceTree = "<group>";
+		};
+		3FF8D31720723E07005575B3 /* TPreventKVC Example */ = {
+			isa = PBXGroup;
+			children = (
+				3FF8D31820723E07005575B3 /* main.m */,
+			);
+			path = "TPreventKVC Example";
+			sourceTree = "<group>";
+		};
+		3FF8D31F2072408E005575B3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -59,16 +153,44 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3FF8D2D620723031005575B3 /* TPreventKVC.h in Headers */,
+				3FF8D2DE20723079005575B3 /* NSObject+PreventKVC.h in Headers */,
+				3FF8D3082072364E005575B3 /* TPreventKVC.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3FF8D2E22072359A005575B3 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FF8D3102072370B005575B3 /* TPreventKVC.h in Headers */,
+				3FF8D3112072370B005575B3 /* NSObject+PreventKVC.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3FF8D2EF207235C6005575B3 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FF8D30A207236EA005575B3 /* TPreventKVC.h in Headers */,
+				3FF8D30B207236EA005575B3 /* NSObject+PreventKVC.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3FF8D2FC207235D2005575B3 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FF8D30C20723701005575B3 /* TPreventKVC.h in Headers */,
+				3FF8D30D20723701005575B3 /* NSObject+PreventKVC.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		3FF8D2D020723031005575B3 /* TPreventKVC */ = {
+		3FF8D2D020723031005575B3 /* TPreventKVC iOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 3FF8D2D920723031005575B3 /* Build configuration list for PBXNativeTarget "TPreventKVC" */;
+			buildConfigurationList = 3FF8D2D920723031005575B3 /* Build configuration list for PBXNativeTarget "TPreventKVC iOS" */;
 			buildPhases = (
 				3FF8D2CC20723031005575B3 /* Sources */,
 				3FF8D2CD20723031005575B3 /* Frameworks */,
@@ -79,10 +201,82 @@
 			);
 			dependencies = (
 			);
-			name = TPreventKVC;
+			name = "TPreventKVC iOS";
 			productName = TPreventKVC;
 			productReference = 3FF8D2D120723031005575B3 /* TPreventKVC.framework */;
 			productType = "com.apple.product-type.framework";
+		};
+		3FF8D2E42072359A005575B3 /* TPreventKVC watchOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3FF8D2EC2072359B005575B3 /* Build configuration list for PBXNativeTarget "TPreventKVC watchOS" */;
+			buildPhases = (
+				3FF8D2E02072359A005575B3 /* Sources */,
+				3FF8D2E12072359A005575B3 /* Frameworks */,
+				3FF8D2E22072359A005575B3 /* Headers */,
+				3FF8D2E32072359A005575B3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "TPreventKVC watchOS";
+			productName = TPreventKVC;
+			productReference = 3FF8D2E52072359A005575B3 /* TPreventKVC.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		3FF8D2F1207235C6005575B3 /* TPreventKVC tvOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3FF8D2F7207235C6005575B3 /* Build configuration list for PBXNativeTarget "TPreventKVC tvOS" */;
+			buildPhases = (
+				3FF8D2ED207235C6005575B3 /* Sources */,
+				3FF8D2EE207235C6005575B3 /* Frameworks */,
+				3FF8D2EF207235C6005575B3 /* Headers */,
+				3FF8D2F0207235C6005575B3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "TPreventKVC tvOS";
+			productName = "TPreventKVC tvOS";
+			productReference = 3FF8D2F2207235C6005575B3 /* TPreventKVC.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		3FF8D2FE207235D2005575B3 /* TPreventKVC macOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3FF8D304207235D2005575B3 /* Build configuration list for PBXNativeTarget "TPreventKVC macOS" */;
+			buildPhases = (
+				3FF8D2FA207235D2005575B3 /* Sources */,
+				3FF8D2FB207235D2005575B3 /* Frameworks */,
+				3FF8D2FC207235D2005575B3 /* Headers */,
+				3FF8D2FD207235D2005575B3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "TPreventKVC macOS";
+			productName = "TPreventKVC macOS";
+			productReference = 3FF8D2FF207235D2005575B3 /* TPreventKVC.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		3FF8D31520723E07005575B3 /* TPreventKVC Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3FF8D31A20723E07005575B3 /* Build configuration list for PBXNativeTarget "TPreventKVC Example" */;
+			buildPhases = (
+				3FF8D31220723E07005575B3 /* Sources */,
+				3FF8D31320723E07005575B3 /* Frameworks */,
+				3FF8D31420723E07005575B3 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3FF8D31E20723E36005575B3 /* PBXTargetDependency */,
+			);
+			name = "TPreventKVC Example";
+			productName = "TPreventKVC Example";
+			productReference = 3FF8D31620723E07005575B3 /* TPreventKVC Example */;
+			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
 
@@ -94,6 +288,18 @@
 				ORGANIZATIONNAME = TBD;
 				TargetAttributes = {
 					3FF8D2D020723031005575B3 = {
+						CreatedOnToolsVersion = 9.3;
+					};
+					3FF8D2E42072359A005575B3 = {
+						CreatedOnToolsVersion = 9.3;
+					};
+					3FF8D2F1207235C6005575B3 = {
+						CreatedOnToolsVersion = 9.3;
+					};
+					3FF8D2FE207235D2005575B3 = {
+						CreatedOnToolsVersion = 9.3;
+					};
+					3FF8D31520723E07005575B3 = {
 						CreatedOnToolsVersion = 9.3;
 					};
 				};
@@ -110,13 +316,38 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				3FF8D2D020723031005575B3 /* TPreventKVC */,
+				3FF8D2D020723031005575B3 /* TPreventKVC iOS */,
+				3FF8D2F1207235C6005575B3 /* TPreventKVC tvOS */,
+				3FF8D2FE207235D2005575B3 /* TPreventKVC macOS */,
+				3FF8D2E42072359A005575B3 /* TPreventKVC watchOS */,
+				3FF8D31520723E07005575B3 /* TPreventKVC Example */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
 		3FF8D2CF20723031005575B3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3FF8D2E32072359A005575B3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3FF8D2F0207235C6005575B3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3FF8D2FD207235D2005575B3 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -130,10 +361,51 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3FF8D2DF20723079005575B3 /* NSObject+PreventKVC.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3FF8D2E02072359A005575B3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FF8D30F20723709005575B3 /* NSObject+PreventKVC.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3FF8D2ED207235C6005575B3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FF8D309207236E3005575B3 /* NSObject+PreventKVC.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3FF8D2FA207235D2005575B3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FF8D30E20723704005575B3 /* NSObject+PreventKVC.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3FF8D31220723E07005575B3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FF8D31920723E07005575B3 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3FF8D31E20723E36005575B3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3FF8D2FE207235D2005575B3 /* TPreventKVC macOS */;
+			targetProxy = 3FF8D31D20723E36005575B3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		3FF8D2D720723031005575B3 /* Debug */ = {
@@ -262,15 +534,16 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = TPreventKVC/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = tbd.tech.TPreventKVC;
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_BUNDLE_IDENTIFIER = "tbd.tech.TPreventKVC-iOS";
+				PRODUCT_NAME = TPreventKVC;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -286,7 +559,33 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = TPreventKVC/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "tbd.tech.TPreventKVC-iOS";
+				PRODUCT_NAME = TPreventKVC;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		3FF8D2EA2072359B005575B3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = TS9WTSBK78;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "$(SRCROOT)/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -294,9 +593,168 @@
 					"@loader_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = tbd.tech.TPreventKVC;
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = TPreventKVC;
+				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 4.3;
+			};
+			name = Debug;
+		};
+		3FF8D2EB2072359B005575B3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = TS9WTSBK78;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "$(SRCROOT)/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = tbd.tech.TPreventKVC;
+				PRODUCT_NAME = TPreventKVC;
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 4.3;
+			};
+			name = Release;
+		};
+		3FF8D2F8207235C6005575B3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = TS9WTSBK78;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "$(SRCROOT)/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "tbd.tech.TPreventKVC-tvOS";
+				PRODUCT_NAME = TPreventKVC;
+				SDKROOT = appletvos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 11.3;
+			};
+			name = Debug;
+		};
+		3FF8D2F9207235C6005575B3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = TS9WTSBK78;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "$(SRCROOT)/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "tbd.tech.TPreventKVC-tvOS";
+				PRODUCT_NAME = TPreventKVC;
+				SDKROOT = appletvos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 11.3;
+			};
+			name = Release;
+		};
+		3FF8D305207235D2005575B3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = TS9WTSBK78;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = "$(SRCROOT)/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				PRODUCT_BUNDLE_IDENTIFIER = "tbd.tech.TPreventKVC-macOS";
+				PRODUCT_NAME = TPreventKVC;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		3FF8D306207235D2005575B3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = TS9WTSBK78;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = "$(SRCROOT)/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				PRODUCT_BUNDLE_IDENTIFIER = "tbd.tech.TPreventKVC-macOS";
+				PRODUCT_NAME = TPreventKVC;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		3FF8D31B20723E07005575B3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TS9WTSBK78;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		3FF8D31C20723E07005575B3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TS9WTSBK78;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
 			};
 			name = Release;
 		};
@@ -312,11 +770,47 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		3FF8D2D920723031005575B3 /* Build configuration list for PBXNativeTarget "TPreventKVC" */ = {
+		3FF8D2D920723031005575B3 /* Build configuration list for PBXNativeTarget "TPreventKVC iOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				3FF8D2DA20723031005575B3 /* Debug */,
 				3FF8D2DB20723031005575B3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3FF8D2EC2072359B005575B3 /* Build configuration list for PBXNativeTarget "TPreventKVC watchOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3FF8D2EA2072359B005575B3 /* Debug */,
+				3FF8D2EB2072359B005575B3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3FF8D2F7207235C6005575B3 /* Build configuration list for PBXNativeTarget "TPreventKVC tvOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3FF8D2F8207235C6005575B3 /* Debug */,
+				3FF8D2F9207235C6005575B3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3FF8D304207235D2005575B3 /* Build configuration list for PBXNativeTarget "TPreventKVC macOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3FF8D305207235D2005575B3 /* Debug */,
+				3FF8D306207235D2005575B3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3FF8D31A20723E07005575B3 /* Build configuration list for PBXNativeTarget "TPreventKVC Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3FF8D31B20723E07005575B3 /* Debug */,
+				3FF8D31C20723E07005575B3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

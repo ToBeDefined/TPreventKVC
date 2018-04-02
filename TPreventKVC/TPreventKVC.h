@@ -6,14 +6,12 @@
 //  Copyright © 2018年 TBD. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
 
-//! Project version number for TPreventKVC.
+#if __has_include(<TPreventKVC/TPreventKVC.h>)
 FOUNDATION_EXPORT double TPreventKVCVersionNumber;
-
-//! Project version string for TPreventKVC.
 FOUNDATION_EXPORT const unsigned char TPreventKVCVersionString[];
-
-// In this header, you should import all the public headers of your framework using statements like #import <TPreventKVC/PublicHeader.h>
-
-
+#import <TPreventKVC/NSObject+PreventKVC.h>
+#else
+#import "TPreventKVC/NSObject+PreventKVC.h"
+#endif
