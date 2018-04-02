@@ -42,8 +42,10 @@ int main(int argc, const char * argv[]) {
         }];
         
         TestPreventKVC *obj = [[TestPreventKVC alloc] init];
-        [obj setValue:@"value" forKey:@"_undefinedKey_1"];
-        [obj valueForKey:@"_undefinedKey_2"];
+        [obj setValue:@"value" forKey:@"_undefinedKey1"];
+        [obj valueForKey:@"_undefinedKey2"];
+        [obj setValue:@"value" forKeyPath:@"undefinedKeyPath1.path"];
+        [obj valueForKeyPath:@"undefinedKeyPath2.path"];
         NSLog(@"Test Prevent KVC Success");
     }
     return 0;
