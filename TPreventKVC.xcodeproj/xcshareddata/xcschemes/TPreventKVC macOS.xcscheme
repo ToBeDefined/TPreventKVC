@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "3FF8D2FE207235D2005575B3"
-               BuildableName = "TPreventKVC_macOS.framework"
+               BuildableName = "TPreventKVC.framework"
                BlueprintName = "TPreventKVC macOS"
                ReferencedContainer = "container:TPreventKVC.xcodeproj">
             </BuildableReference>
@@ -46,7 +46,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "3FF8D2FE207235D2005575B3"
-            BuildableName = "TPreventKVC_macOS.framework"
+            BuildableName = "TPreventKVC.framework"
             BlueprintName = "TPreventKVC macOS"
             ReferencedContainer = "container:TPreventKVC.xcodeproj">
          </BuildableReference>
@@ -64,7 +64,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "3FF8D2FE207235D2005575B3"
-            BuildableName = "TPreventKVC_macOS.framework"
+            BuildableName = "TPreventKVC.framework"
             BlueprintName = "TPreventKVC macOS"
             ReferencedContainer = "container:TPreventKVC.xcodeproj">
          </BuildableReference>
