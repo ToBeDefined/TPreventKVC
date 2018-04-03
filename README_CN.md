@@ -97,7 +97,7 @@ github "tobedefined/TPreventKVC"
 
 ##### Some Definitions
 
-The following definitions and methods are in `NSObject+PreventKVC.h`
+在`NSObject+PreventKVC.h`中有以下定义
 
 ```objc
 typedef NS_ENUM(NSUInteger, KVCErrorType) {
@@ -109,8 +109,8 @@ typedef NS_ENUM(NSUInteger, KVCErrorType) {
 typedef void (^ __nullable HandleKVCErrorBlock)(Class cls, NSString *key, KVCErrorType errorType);
 ```
 
-- `cls`: `Class` type; use `NSStringFromClass(cls)` to return a class name string for a Class that produces the wrong class or object
-- `key`: `NSString *` type; the key to generate the error
-- `errorType`: `KVCErrorType`; the type that generated the error
-
+- `cls`: `Class`类型；为产生错误的类或对象的Class，可使用`NSStringFromClass(cls)`返回类名字符串
+- `key`: `NSString *`类型；为产生错误的Key
+- `errorType`: `KVCErrorType`类型；为产生错误的类型
+- `callStackSymbols`: `NSArray<NSString *> *`类型；为调用栈信息
 
