@@ -14,7 +14,10 @@ typedef NS_ENUM(NSUInteger, KVCErrorType) {
     KVCErrorTypeSetNilValueForKey           = 3,
 };
 
-typedef void (^ __nullable HandleKVCErrorBlock)(Class cls, NSString *key, KVCErrorType errorType);
+typedef void (^ __nullable HandleKVCErrorBlock)(Class cls,
+                                                NSString *key,
+                                                KVCErrorType errorType,
+                                                NSArray<NSString *> * _Nonnull callStackSymbols);
 
 @interface NSObject (PreventKVC)
 

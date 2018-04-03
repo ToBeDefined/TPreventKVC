@@ -21,7 +21,7 @@
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
         NSLog(@"Begin Test Prevent KVC");
-        [NSObject setHandleKVCErrorBlock:^(__unsafe_unretained Class cls, NSString *key, KVCErrorType errorType) {
+        [NSObject setHandleKVCErrorBlock:^(__unsafe_unretained Class cls, NSString *key, KVCErrorType errorType, NSArray<NSString *> * _Nonnull callStackSymbols) {
             NSString *errorTypeStr;
             switch (errorType) {
                 case KVCErrorTypeSetNilValueForKey:
@@ -39,6 +39,7 @@ int main(int argc, const char * argv[]) {
                     break;
             }
             NSLog(@">> %@ <<, %@ for key: %@", NSStringFromClass(cls), errorTypeStr, key);
+            NSLog(@"%@", callStackSymbols);
         }];
         
         TestPreventKVC *obj = [[TestPreventKVC alloc] init];

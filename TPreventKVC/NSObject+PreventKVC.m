@@ -36,14 +36,24 @@
 - (void)__t_setValue:(nullable id)value forUndefinedKey:(NSString *)key {
     HandleKVCErrorBlock handleBlock = [NSObject handleKVCErrorBlock];
     if (handleBlock != nil) {
-        handleBlock([self class], key, KVCErrorTypeSetValueForUndefinedKey);
+        NSArray <NSString *>*callStackSymbols = @[@"The system version is too low."];
+        if (@available(iOS 4.0, tvOS 9.0, macOS 10.6, watchOS 2.0, *)) {
+            callStackSymbols = [NSThread callStackSymbols];
+        }
+
+        handleBlock([self class], key, KVCErrorTypeSetValueForUndefinedKey, callStackSymbols);
     }
 }
 
 - (nullable id)__t_valueForUndefinedKey:(NSString *)key {
     HandleKVCErrorBlock handleBlock = [NSObject handleKVCErrorBlock];
     if (handleBlock != nil) {
-        handleBlock([self class], key, KVCErrorTypeValueForUndefinedKey);
+        NSArray <NSString *>*callStackSymbols = @[@"The system version is too low."];
+        if (@available(iOS 4.0, tvOS 9.0, macOS 10.6, watchOS 2.0, *)) {
+            callStackSymbols = [NSThread callStackSymbols];
+        }
+
+        handleBlock([self class], key, KVCErrorTypeValueForUndefinedKey, callStackSymbols);
     }
     return nil;
 }
@@ -51,7 +61,12 @@
 - (void)__t_setNilValueForKey:(NSString *)key {
     HandleKVCErrorBlock handleBlock = [NSObject handleKVCErrorBlock];
     if (handleBlock != nil) {
-        handleBlock([self class], key, KVCErrorTypeSetNilValueForKey);
+        NSArray <NSString *>*callStackSymbols = @[@"The system version is too low."];
+        if (@available(iOS 4.0, tvOS 9.0, macOS 10.6, watchOS 2.0, *)) {
+            callStackSymbols = [NSThread callStackSymbols];
+        }
+
+        handleBlock([self class], key, KVCErrorTypeSetNilValueForKey, callStackSymbols);
     }
     [self setValue:nil forKey:key];
 }
