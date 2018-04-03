@@ -11,7 +11,7 @@
 
 @implementation NSObject (PreventKVC)
 
-#pragma mark - HandleUnrecognizedSELErrorBlock
+#pragma mark - HandleKVCErrorBlock
 
 + (void)setHandleKVCErrorBlock:(HandleKVCErrorBlock)handleBlock {
     objc_setAssociatedObject(self, @selector(handleKVCErrorBlock), handleBlock, OBJC_ASSOCIATION_RETAIN);
@@ -21,6 +21,7 @@
     return objc_getAssociatedObject(self, _cmd);
 }
 
+#pragma mark - Implementation
 + (void)load {
     static dispatch_once_t onceToken;
     dispatch_once(&onceToken, ^{

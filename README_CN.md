@@ -19,11 +19,13 @@ TPreventKVC
 
 [English Document](README.md)
 
+[TPreventKVC的使用和实现](http://tbd.ink/2018/04/04/iOS/18040401.TPreventKVC%E7%9A%84%E4%BD%BF%E7%94%A8%E5%92%8C%E5%AE%9E%E7%8E%B0/index/)
+
 </div>
 
 ### 特点
 
-使用runtime动态替换方法防止在使用KVC的方法时候产生 `NSUnknownKeyException` & `NSInvalidArgumentException` 错误引发崩溃
+使用runtime动态替换方法防止在使用KVC的方法时候产生 `NSUnknownKeyException` & `NSInvalidArgumentException` 错误引发崩溃。
 
 - `-valueForKey:`
 - `setValue:forKey:`
