@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
     s.name                      = 'TPreventKVC'
-    s.version                   = '1.0.0'
+    s.version                   = '1.1.0'
     s.summary                   = <<-DESC
     Use TPreventKVC can prevent KVC's Exceptions crash, like NSUnknownKeyException & NSInvalidArgumentException
                                     DESC
