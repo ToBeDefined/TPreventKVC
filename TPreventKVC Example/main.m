@@ -9,11 +9,11 @@
 #import <Foundation/Foundation.h>
 #import <TPreventKVC/TPreventKVC.h>
 
-@interface TestPreventKVC: NSObject
+@interface TestPreventKVCTestObj : NSObject
 
 @end
 
-@implementation TestPreventKVC
+@implementation TestPreventKVCTestObj
 
 @end
 
@@ -42,7 +42,7 @@ int main(int argc, const char * argv[]) {
             NSLog(@"%@", callStackSymbols);
         }];
         
-        TestPreventKVC *obj = [[TestPreventKVC alloc] init];
+        TestPreventKVCTestObj *obj = [[TestPreventKVCTestObj alloc] init];
         [obj setValue:@"value" forKey:@"_undefinedKey1"];
         [obj valueForKey:@"_undefinedKey2"];
         [obj setValue:@"value" forKeyPath:@"undefinedKeyPath1.path"];
